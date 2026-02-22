@@ -9,11 +9,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 40px 30px 40px;
+    /* margin: 0 40px 30px 40px; */
+    margin: 0px 40px 10px 60px ;
     
 }
 nav .title{
-    font-weight: 800;
+    font-weight: bold;
     font-size: 45px;
 }
 
@@ -28,6 +29,7 @@ nav ul{
 nav ul li{
     list-style: none;
     margin-right: 40px;
+    font-weight: 400;
 }
 nav ul li a{
     text-decoration: none;
@@ -43,23 +45,30 @@ header{
     background-position: center
 
 }
-.banner-contenr {
-    width: 600px;
+.banner .banner-content {
+    font-weight: 400;
+    width: 720px;
     padding: 60px;
     font-size: 40px;
     color: white;
+    /* align-items: center; */
 
 }
-.banner-contenr .greeting{
+.banner-content .greeting{
     font-size: 30px;
     font-weight: 600;
 }
 
+.banner-content .greeting-2{
+    font-weight: bold;
+    font-size: 50px;
+}
 .banner-description{
     font-size: 20px;
-     color: white;
+    color: white;
+    margin-bottom: 10px;
 }
-.banner .banner-contenr .button{
+.banner .banner-content .button{
     color: black;
     font-size: 20px;
     text-decoration: none;
