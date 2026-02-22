@@ -1,76 +1,69 @@
-body{
- padding: 0;
- margin: 0;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-/* Nav bar */
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin: 5px 50px; */
-    padding: 0 20px;
-    background-color: rgb(37, 150, 190);
-}
-.Nav-titel{
-    font-weight: bold;
-    font-size: 45px;
-}
-.Nav-titel .text{
-    color: red;
-}
-nav li{
-    list-style: none;
-    margin-right: 40px;
-}
+    margin: 0 70px;
 
-nav li a{
+}
+nav .title{
+    font-weight: 800;
+    font-size: 40px;
+}
+nav .title span{
+    color: tomato;
+}
+nav ul li{
+    list-style: none;
+    margin: 20px;
+    
+}
+nav ul li a{
     text-decoration: none;
     font-size: 20px;
     color: white;
 }
-
 nav ul{
     display: flex;
 }
-nav li :hover{
-   background-color: red;
-   padding: 10px;
-   border-radius: 5px;
-}
 
 
-
-
-
-.hero-section{
+header{
     width: auto;
-    height: 650px;
+    height: 640px;
     background-image: url('hero.png');
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.hero-section .content{
-    width: 650px;
-    padding: 60px;
-}
-
-.hero-section .content .title h1{
-    font-size: 40px;
+.banner-content{
+    width: 60%;
     color: white;
-    margin-top: 0;
+    padding: 80px;
+    font-size: 20px;
+}
+.banner .banner-content .gretting{
+    font-size: 60px;
+}
+.banner .banner-content .getting-first{
+    font-size: 30px;
+}
+.banner-description{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
 
-}
-.hero-section .content .paragraph{
-     font-size: 20px;
-     color: white;
-}
-.hero-section .content .button{
+.banner .banner-content .button{
     color: black;
     font-size: 20px;
     text-decoration: none;
-    background-color: #ebc6b4;
     padding: 10px 20px;
-    margin: 5px;
+    background-color: tomato;
     border-radius: 10px;
+   
 }
